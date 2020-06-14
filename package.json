@@ -1,0 +1,16 @@
+{
+  "name": "Infovis",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/leogoncalves/Infovis.git",
+  "author": "Leonardo Gonçalves <leonardo.goncalves.2711@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel *.html",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.8"
+  }
+}
