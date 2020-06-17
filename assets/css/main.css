@@ -326,6 +326,11 @@ input, select, textarea {
 
 	/* Layout */
 
+	section {
+		margin-left: 20vw;
+		margin-right: 20vw;
+	}
+
 	.section-first {
 		margin-left: 20vw;
 		margin-right: 20vw;
@@ -333,6 +338,14 @@ input, select, textarea {
 	}
 
 		.chart-container {
-			margin-left: 10vw;
-			margin-right: 10vw;
+			margin-top: 5vh;
 		}
+
+	.container-h {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.container-50 {
+		flex: 1;
+	}
