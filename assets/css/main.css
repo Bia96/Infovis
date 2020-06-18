@@ -349,3 +349,50 @@ input, select, textarea {
 	.container-50 {
 		flex: 1;
 	}
+
+/* Colors by Section */
+
+/* Gender */
+
+.color-male {
+	background-color: #7FC5C5;
+}
+
+.color-female {
+	background-color: #7C6D8E;
+}
+
+/* Section Color */
+
+.color-formacao {
+	background-color: #F68183;
+}
+
+.color-formacao-l {
+	background-color: #FDD3D5;
+}
+
+.color-domestico-l {
+	background-color: #FFF4D8;
+}
+
+.color-domestico {
+	background-color: #FFCE4C;
+}
+
+.color-incentivo {
+	background-color: #FFB69A;
+}
+
+.color-incentivo-l {
+	background-color: #FFE0D1;
+}
+
+.color-cultural {
+	background-color: #27687A;
+}
+
+.color-cultural-l {
+	background-color: #E9F5F3;
+}
+
