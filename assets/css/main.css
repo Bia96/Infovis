@@ -331,8 +331,21 @@ input, select, textarea {
 	
 	}
 
+	.section-default {
+		padding-left: 5vw;
+		padding-right: 5vw;
+		padding-top: 5vh;
+		padding-bottom: 5vh;
+	}
+
+	.subsection {
+		padding-bottom: 4rem;
+	}
+
 		.chart-container {
 			margin-top: 5vh;
+			height: 30%;
+
 		}
 
 	.container-h {
