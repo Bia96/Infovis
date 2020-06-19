@@ -328,14 +328,18 @@ input, select, textarea {
 	}
 
 	.section-first {
-		padding-left: 15rem;
-		padding-right: 15rem;
-		padding-top: 10%;
-		padding-bottom: 10%;
+		padding-left: 8rem;
+		padding-right: 8rem;
+		padding-top: 7.5%;
+		margin-bottom: 5.75rem;
 		background-color: #C1B5CF;
+		background-image: url(portion.svg);
+		background-size: 100%;
 		color: #52335F;
 		width: 100%;
- 		height: 100%;
+		 height: 100%;
+		 display: flex;
+		 flex-direction: row;
 	}
 
 	.container-h {
@@ -344,7 +348,7 @@ input, select, textarea {
 	}
 
 	.container-50 {
-		flex: 1;
+		height: 50%;
 	}
 
 	.subsection {
