@@ -190,6 +190,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2rem 0;
+
 	}
 
 		p.major {
@@ -417,6 +418,11 @@ input, select, textarea {
 }
 
 .btn-default:hover {
+	background-color: #52335F;
+	color: white;
+}
+
+.current {
 	background-color: #52335F;
 	color: white;
 }
