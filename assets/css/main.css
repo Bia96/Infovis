@@ -426,3 +426,15 @@ input, select, textarea {
 	background-color: #52335F;
 	color: white;
 }
+
+.subtle {
+	margin-top: 1rem;
+	font-size: .75rem;
+	color: #979797;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #F68183;
+}
