@@ -362,11 +362,28 @@ input, select, textarea {
 
 	.container-50 {
 		height: 50%;
+		text-align: right;
 	}
 
 	.subsection {
 		margin-top: 5rem;
 		margin-bottom: 2.5rem;
+	}
+
+	.svg-data {
+		height: 65%;
+	}
+
+	.svg-legend {
+		font-size: 0.75rem;
+		margin-bottom: 0;
+		margin-left: auto;
+		width: 67%;
+	}
+
+	.initial-text {
+		margin-right: 1.75rem;
+		flex: 1; 
 	}
 
 /* Colors by Section */
@@ -480,9 +497,31 @@ a {
 		padding-bottom: 1rem;
 		padding-left: 1rem;
 		padding-right: 1rem;
+		background-image: unset;
+	}
+
+	.svg-data {
+		width: 65%;
+		margin-left: none;
+	}
+
+	.container-50 {
+		text-align: center;
+		margin-bottom: 1rem;
+	}
+
+	.svg-legend {
+		margin-left: none;
+		margin-bottom: 0;
+		width: unset;
+	}
+
+	.initial-text {
+		margin-bottom: 1rem;
+		margin-right: 0;
 	}
   }
-  @media (min-width: 769px) and (max-width: 992px) { /*tablet*/
+  @media (min-width: 768px) and (max-width: 992px) { /*tablet*/
 	html { 
 		color: green; 
 	}
@@ -490,6 +529,17 @@ a {
 	.section-charts {
 		padding-left: 5rem;
 		padding-right: 5rem;
+	}
+
+	.section-first {
+		padding-bottom: 2rem;
+		padding-left: 2rem;
+		padding-right: 2rem;
+		background-image: unset;
+	}
+
+	.svg-data {
+		width: 75%;
 	}
   }
   @media (min-width: 993px) { /* desktop */
