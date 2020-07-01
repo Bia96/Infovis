@@ -471,6 +471,15 @@ a {
 	.section-charts {
 		padding-left: 1rem;
 		padding-right: 1rem;
+
+	}
+
+	.section-first {
+		height: auto;
+		flex-direction: column;
+		padding-bottom: 1rem;
+		padding-left: 1rem;
+		padding-right: 1rem;
 	}
   }
   @media (min-width: 769px) and (max-width: 992px) { /*tablet*/
