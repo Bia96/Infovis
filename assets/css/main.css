@@ -11,7 +11,7 @@
 html, body {
 	height: 100%;
 	overflow: -moz-scrollbars-vertical; 
-    overflow-y: scroll;
+	overflow-y: scroll;
 }
 
 
@@ -98,6 +98,7 @@ input, select, textarea {
 		}
 
 	}
+
 
 	html {
 		box-sizing: border-box;
@@ -345,6 +346,15 @@ input, select, textarea {
 		 flex-direction: row;
 	}
 
+	.container-hero {
+		display: flex; 
+		flex-direction: column-reverse; 
+		margin-left: 1.75rem; 
+		max-height: 100%; 
+		flex: 1; 
+		padding-bottom: 3rem;
+	}
+
 	.container-h {
 		display: flex;
 		flex-direction: row;
@@ -451,6 +461,36 @@ a {
 	border-top: solid 1px grey;	
 	font-size: 0.75rem;
 }
+
+/* Mine */
+
+@media (max-width: 576px) { /* mobile */	
+	html { 
+		color: red; 
+	}
+	.section-charts {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+  }
+  @media (min-width: 769px) and (max-width: 992px) { /*tablet*/
+	html { 
+		color: green; 
+	}
+
+	.section-charts {
+		padding-left: 5rem;
+		padding-right: 5rem;
+	}
+  }
+  @media (min-width: 993px) { /* desktop */
+	html { 
+		color: blue; 
+	}
+
+  }
+
+/* end of mine */
 
 
 
