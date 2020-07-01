@@ -442,3 +442,15 @@ a {
 	color: #F68183;
 }
 
+.footer-pd {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	color: #979797;
+	font-weight: 300;
+	text-align: center;
+	border-top: solid 1px grey;	
+	font-size: 0.75rem;
+}
+
+
+
