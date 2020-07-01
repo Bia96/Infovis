@@ -145,21 +145,6 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
-
-			html {
-				font-size: 11pt;
-			}
-
-		}
-
-		@media screen and (max-width: 360px) {
-
-			html {
-				font-size: 10pt;
-			}
-
-		}
 
 	body {
 		background-color: #ffffff;
@@ -375,10 +360,10 @@ input, select, textarea {
 	}
 
 	.svg-legend {
-		font-size: 0.75rem;
 		margin-bottom: 0;
 		margin-left: auto;
 		width: 67%;
+		font-size: 0.85rem;
 	}
 
 	.initial-text {
@@ -516,6 +501,7 @@ a {
 		margin-left: none;
 		margin-bottom: 0;
 		width: unset;
+		font-size: 1rem;
 	}
 
 	.initial-text {
@@ -549,7 +535,6 @@ a {
 
 	.section-first {
 		background-image: unset;
-
 	}
   }
 
