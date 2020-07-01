@@ -386,6 +386,10 @@ input, select, textarea {
 		flex: 1; 
 	}
 
+	.hero-container {
+		flex: 1;
+	}
+
 /* Colors by Section */
 
 /* Gender */
@@ -481,7 +485,7 @@ a {
 
 /* Mine */
 
-@media (max-width: 576px) { /* mobile */	
+@media (max-width: 767px) { /* mobile */	
 	html { 
 		color: red; 
 	}
@@ -522,9 +526,6 @@ a {
 	}
   }
   @media (min-width: 768px) and (max-width: 992px) { /*tablet*/
-	html { 
-		color: green; 
-	}
 
 	.section-charts {
 		padding-left: 5rem;
@@ -542,11 +543,16 @@ a {
 		width: 75%;
 	}
   }
-  @media (min-width: 993px) { /* desktop */
-	html { 
-		color: blue; 
-	}
+  /*@media (min-width: 993px) {  desktop 
 
+  }*/
+
+  @media (max-width: 1410px) { /* mobile */	
+
+	.section-first {
+		background-image: unset;
+
+	}
   }
 
 /* end of mine */
