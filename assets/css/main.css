@@ -486,9 +486,7 @@ a {
 /* Mine */
 
 @media (max-width: 767px) { /* mobile */	
-	html { 
-		color: red; 
-	}
+
 	.section-charts {
 		padding-left: 1rem;
 		padding-right: 1rem;
